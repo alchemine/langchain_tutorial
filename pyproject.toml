@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "base-project"
+name = "langchain_tutorial"
 version = "0.1.0"
 description = ""
-authors = ["alchemine <djyoon0223@gmail.com>"]
+authors = ["alchemine <alchemine@bereview.co.kr>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 notebook = "6.5.6"
 jupyterthemes = "0.20.0"
+langchain = "^0.1.4"
+langchain-openai = "^0.0.5"
 
 
 [build-system]
